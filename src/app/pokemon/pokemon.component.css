@@ -1,0 +1,19 @@
+.box{
+    background-color:#FF0000;
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+.card-header{
+    background-color:#FF0000;    
+}
+
+.card{
+    border-color: black;
+}
+
+.btn{
+    background-color:#FF0000;
+    border-color: black;
+}
