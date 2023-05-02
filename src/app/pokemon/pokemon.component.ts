@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Pokemon } from '../pokemon';
 
 @Component({
   selector: 'app-pokemon',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./pokemon.component.css']
 })
 export class PokemonComponent {
-
+    title = 'pokemon';
+    pokemon: Pokemon = {} as Pokemon; 
 }
