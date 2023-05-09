@@ -6,9 +6,10 @@ export interface Pokemon
     height: number;
     weight: number;
 
-    type:{
-        type: any;
+    types:{
+        type:{
         name: string;
+        }
     }[];
     
     abilities:{
@@ -20,7 +21,7 @@ export interface Pokemon
         base_stat: number;
         stat:{
             name: string;
-        }[];
-    }
+        }
+    }[];
 
 }

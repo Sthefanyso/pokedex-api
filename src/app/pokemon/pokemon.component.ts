@@ -54,6 +54,18 @@ export class PokemonComponent implements OnInit {
       return this.pokemon.abilities.map(a => a.ability.name).join(' | ');
     }
    
+    typesPokemon(){
+      return this.pokemon.types.map(a => a.type.name).join(' | ');
+    }
+
+    NameStatsPokemon(){
+      let name = this.pokemon.stats.map(a => a.stat.name);
+      return name;
+    }
+    NumberStatsPokemon(){
+      let number = this.pokemon.stats.map(a => a.base_stat);
+      return number;
+    }
    
 
 
