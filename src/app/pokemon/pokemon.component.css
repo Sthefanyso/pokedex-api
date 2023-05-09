@@ -2,7 +2,11 @@
     background-color:#FF0000;
     border-radius: 20px;
     width: 600px;
-    height: 400px;
+    height: 350px;
+    text-align: center;
+    font-size: 25px;
+    color: #FFFF;
+
 }
 
 .card-header{
@@ -16,4 +20,8 @@
 .btn{
     background-color:#FF0000;
     border-color: black;
+}
+
+h2{
+    color: #FFFF;
 }

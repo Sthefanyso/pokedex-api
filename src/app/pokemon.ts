@@ -7,10 +7,12 @@ export interface Pokemon
     weight: number;
 
     type:{
+        type: any;
         name: string;
     }[];
     
     abilities:{
+        ability: any;
         name: string;
     }[];
 
